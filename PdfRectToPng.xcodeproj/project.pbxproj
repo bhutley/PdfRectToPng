@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BA8A2DB1439E00A00930318 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8A2DA1439E00A00930318 /* main.c */; };
+		8BA8A2E71439E0C800930318 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA8A2E61439E0C800930318 /* CoreFoundation.framework */; };
+		8BA8A2EB1439E10300930318 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA8A2EA1439E10300930318 /* Carbon.framework */; };
+		8BA8A2ED1439E1AE00930318 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA8A2EC1439E1AE00930318 /* ApplicationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BA8A2D61439E00A00930318 /* PdfRectToPng */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PdfRectToPng; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA8A2DA1439E00A00930318 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8BA8A2DC1439E00A00930318 /* PdfRectToPng.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PdfRectToPng.1; sourceTree = "<group>"; };
+		8BA8A2E61439E0C800930318 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8BA8A2E81439E0D200930318 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		8BA8A2EA1439E10300930318 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		8BA8A2EC1439E1AE00930318 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BA8A2D31439E00A00930318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA8A2ED1439E1AE00930318 /* ApplicationServices.framework in Frameworks */,
+				8BA8A2EB1439E10300930318 /* Carbon.framework in Frameworks */,
+				8BA8A2E71439E0C800930318 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BA8A2CB1439E00A00930318 = {
+			isa = PBXGroup;
+			children = (
+				8BA8A2EC1439E1AE00930318 /* ApplicationServices.framework */,
+				8BA8A2EA1439E10300930318 /* Carbon.framework */,
+				8BA8A2E81439E0D200930318 /* ApplicationServices.framework */,
+				8BA8A2E61439E0C800930318 /* CoreFoundation.framework */,
+				8BA8A2D91439E00A00930318 /* PdfRectToPng */,
+				8BA8A2D71439E00A00930318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA8A2D71439E00A00930318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BA8A2D61439E00A00930318 /* PdfRectToPng */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA8A2D91439E00A00930318 /* PdfRectToPng */ = {
+			isa = PBXGroup;
+			children = (
+				8BA8A2DA1439E00A00930318 /* main.c */,
+				8BA8A2DC1439E00A00930318 /* PdfRectToPng.1 */,
+			);
+			path = PdfRectToPng;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BA8A2D51439E00A00930318 /* PdfRectToPng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA8A2E01439E00A00930318 /* Build configuration list for PBXNativeTarget "PdfRectToPng" */;
+			buildPhases = (
+				8BA8A2D21439E00A00930318 /* Sources */,
+				8BA8A2D31439E00A00930318 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PdfRectToPng;
+			productName = PdfRectToPng;
+			productReference = 8BA8A2D61439E00A00930318 /* PdfRectToPng */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BA8A2CD1439E00A00930318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Stimuli Limited";
+			};
+			buildConfigurationList = 8BA8A2D01439E00A00930318 /* Build configuration list for PBXProject "PdfRectToPng" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BA8A2CB1439E00A00930318;
+			productRefGroup = 8BA8A2D71439E00A00930318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BA8A2D51439E00A00930318 /* PdfRectToPng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BA8A2D21439E00A00930318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA8A2DB1439E00A00930318 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BA8A2DE1439E00A00930318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BA8A2DF1439E00A00930318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BA8A2E11439E00A00930318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BA8A2E21439E00A00930318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BA8A2D01439E00A00930318 /* Build configuration list for PBXProject "PdfRectToPng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA8A2DE1439E00A00930318 /* Debug */,
+				8BA8A2DF1439E00A00930318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA8A2E01439E00A00930318 /* Build configuration list for PBXNativeTarget "PdfRectToPng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA8A2E11439E00A00930318 /* Debug */,
+				8BA8A2E21439E00A00930318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BA8A2CD1439E00A00930318 /* Project object */;
+}
